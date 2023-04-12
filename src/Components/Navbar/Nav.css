@@ -1,0 +1,58 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    background-color: transparent;
+    /* box-shadow: 1px 1px rgb(150, 150, 150); */
+    padding: 5px;
+    color: black;
+}
+.Nav1{
+    color: black;
+}
+.logo_txt{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: black;
+}
+.Nav_con1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+li{
+    margin: 15px;
+    color: black;
+}
+.bi{
+    height: 35px;
+    width: 35px;
+    border: 1px solid grey;
+    color: black;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 25px;
+   
+}
+.Nav_btn1{
+  width: 80px;  
+  height: 40px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+.Nav_btn2{
+    width: 100px;  
+    height: 40px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+}
+.Nav_btn2:hover{
+    background-color: orange;
+    border: 2px solid orange;
+}
